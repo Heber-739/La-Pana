@@ -1,0 +1,28 @@
+nav {
+  position: fixed;
+  z-index: 9;
+  background: transparent;
+  top: 0;
+  width: 100vw;
+  height: fit-content;
+  padding: 7px 0;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+  list-style: none;
+}
+a {
+  font-size: 0.9rem;
+  font-family: "Courgette", cursiva;
+  color: white;
+  border-bottom: 1px ridge white;
+}
+
+@media screen and (min-width: 600px) {
+  li {
+    font-size: 3rem;
+  }
+}

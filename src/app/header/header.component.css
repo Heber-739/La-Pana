@@ -1,0 +1,31 @@
+.header_img {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/img1.jpg");
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+figure {
+  text-align: center;
+}
+
+.logo {
+  height: 200px;
+  border-radius: 50%;
+  background-color: white;
+}
+.figcaption {
+  font-size: 1.7rem;
+  font-family: "Courgette", cursiva;
+  color: white;
+}
+.telon {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
