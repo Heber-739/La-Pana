@@ -1,0 +1,19 @@
+.section {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/img4.jpg");
+  width: auto;
+  height: 120vh;
+  overflow: hidden;
+}
+.text_box {
+  width: 90%;
+  margin: 40px auto 0;
+  padding: 10px;
+  font-size: 1rem;
+  line-height: 1.8;
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+}

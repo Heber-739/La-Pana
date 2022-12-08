@@ -6,6 +6,7 @@ nav {
   width: 100vw;
   height: fit-content;
   padding: 7px 0;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
 }
 ul {
   display: flex;
@@ -16,9 +17,12 @@ ul {
 }
 a {
   font-size: 0.9rem;
-  font-family: "Courgette", cursiva;
   color: white;
   border-bottom: 1px ridge white;
+}
+a:hover {
+  color: red;
+  border-bottom: 1px ridge red;
 }
 
 @media screen and (min-width: 600px) {
