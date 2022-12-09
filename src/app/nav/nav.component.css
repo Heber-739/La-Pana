@@ -1,7 +1,7 @@
 nav {
   position: fixed;
   z-index: 9;
-  background: transparent;
+  background: linear-gradient(0deg, #0000002c, #000000a4);
   top: 0;
   width: 100vw;
   height: fit-content;

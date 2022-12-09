@@ -11,6 +11,7 @@ html {
 }
 a {
   text-decoration: none;
+  color: white;
 }
 .curtain {
   width: 100vw;
@@ -19,4 +20,23 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
+}
+.btn {
+  color: white;
+  padding: 10px 15px;
+  background: linear-gradient(0deg, #000, #000, rgb(68, 68, 68));
+  border-radius: 50px;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
+  box-shadow: rgba(0, 0, 0, 0.55) 2.4px 2.4px 3.2px;
+}
+.active {
+  transform: translate(0px, -23px) scale(0.8);
+  padding-inline: 10px;
+}
+.btn:active {
+  box-shadow: inset rgba(0, 0, 0, 0.55) 2.4px 2.4px 3.2px;
 }
