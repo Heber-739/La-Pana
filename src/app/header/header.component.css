@@ -1,11 +1,5 @@
-.header_img {
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.section {
   background-image: url("../../assets/img1.jpg");
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
 }
 figure {
   text-align: center;
@@ -19,12 +13,4 @@ figure {
 .figcaption {
   font-size: 1.7rem;
   color: white;
-}
-.telon {
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }

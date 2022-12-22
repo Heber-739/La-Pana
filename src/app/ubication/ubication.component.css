@@ -1,10 +1,23 @@
 .section {
-  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #016768;
+}
+.text_box {
+  margin: 30px auto 20px;
+  background-color: #ea5e00;
+  outline: 2px solid #bb3b00;
 }
 p {
-  quotes: 3px;
+  color: white;
+  text-shadow: 0 0 4px black;
 }
+
 iframe {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 340px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
 }

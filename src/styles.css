@@ -6,6 +6,19 @@
   box-sizing: border-box;
   font-family: "Courgette", cursiva;
 }
+.palette {
+  color: #e22279;
+  color: #f991a8;
+  color: #f181b3; /*  */
+  color: #016768;
+  color: #41c2d7;
+  color: #44c1df; /*  */
+  color: #1fbfb8;
+  color: #f5f6e0; /*  */
+  color: #ebd834;
+  color: #ced3cf;
+  color: #5dc460;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -13,11 +26,29 @@ a {
   text-decoration: none;
   color: white;
 }
+.section {
+  min-height: 100vh;
+  overflow: hidden;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text_box {
+  width: 90%;
+  margin: 40px auto 0;
+  padding: 10px;
+  font-size: 1rem;
+  line-height: 1.8;
+  text-align: center;
+  border-radius: 20px;
+  z-index: 2;
+}
 .curtain {
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: 1;

@@ -15,12 +15,10 @@ import { UbicationComponent } from './ubication/ubication.component';
     FooterComponent,
     HeaderComponent,
     PresentationComponent,
-    UbicationComponent
+    UbicationComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
